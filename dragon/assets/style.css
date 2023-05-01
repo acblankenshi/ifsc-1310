@@ -1,0 +1,237 @@
+/*
+--------------------------------- Header, or title, for each page ---------------------------------
+*/
+.header nav {
+    background-color: #11335e;
+    overflow: hidden;
+    display: flex;
+}
+
+.header nav a {
+    float: left;
+    color: #fff;
+    letter-spacing: 1.2px;
+    text-align: center;
+    padding: 22px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.8s;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.header a.active {
+    color: purple;
+}
+
+.bgModeLight {
+    position: absolute;
+    right: 18px;
+    color: #000;
+    padding: 6px;
+    margin-top: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.bgModeDark {
+    position: absolute;
+    right: 80px;
+    color: #fff;
+    padding: 6px;
+    margin-top: 16px;
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 6px;
+}
+
+.bgModeDark:hover {
+    animation: bounce 2s infinite;
+}
+
+.bgModeLight:hover {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0% { transform: scale(.9) }
+    70% { transform: scale(1) }
+    100% { transform: scale(.9) }
+}
+
+/*------------------ Font Settings ----------------------*/
+body {
+    font-family: 'Courier New', Tahoma, sans-serif;
+}
+
+/*----------------------- Img Settings ----------------------*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*---------------------- Index Specific CSS ----------------------*/
+body {
+    background-color: rgba(255, 255, 255, 0.749);
+    margin: 0px;
+}
+
+#overview {
+    color: #161616;
+    background-color: #A0E3F2;
+    border-radius: 10px;
+    max-width: 92%;
+    padding: 15px 25px;
+    margin: 30px auto;
+}
+
+#overview h2 {
+    color:black;
+    letter-spacing: 1.2px;
+}
+
+#configurations h3 {
+   position: absolute;
+   left:60px;
+}
+
+#configSection {
+    display: flex;
+    padding:30px;
+}
+
+#configurations .cargo{
+    color: #161616;
+    background-color: #A0E3F2;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 30px;
+    max-width: 40%;
+}
+
+#configurations .crew{
+    color: #161616;
+    background-color: #A0E3F2;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 30px;
+}
+
+#configurations h3 {
+    letter-spacing: 1.2px;
+}
+
+#lab {
+    color: #fff;
+    background-color: #254b7b;
+    padding: 20px;
+    padding-bottom: 50px;
+    max-width: 100%;
+}
+
+#side {
+    color: #fff;
+    background-color: #182f4e;
+    max-width: 100%;
+    padding: 15px 25px;
+    margin: 30px auto;
+    display: flex;
+}
+
+#image {
+    margin: 20px;
+    display: flex;
+    box-shadow: 5px 5px 2.5px #171717;
+}
+
+#complementary h3 {
+    color:black;
+    letter-spacing: 1.2px;
+}
+
+/*---------------------- History Specific CSS ----------------------*/
+#maiden {
+    color: #161616;
+    background-color: #A0E3F2;
+    border-radius: 10px;
+    max-width: 92%;
+    padding: 15px 25px;
+    margin: 30px auto;
+}
+
+#missions {
+    display: flex;
+    flex-direction: row;
+    max-width: 85%;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #2A558C;
+    color: white;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+
+table, th, td {
+    border: #0D0D0D 1.5px solid;
+    padding: 5px;
+}
+
+table td:hover {
+    background-color: #393939;
+}
+
+table th {
+    background-color: #191919;
+}
+
+#caption {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+
+tbody tr:nth-child(odd) {
+  background-color: #2A558C;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #224777;
+}
+
+#missions img {
+    max-width: 30%;
+}
+
+/*---------------------- FAQs Specific CSS ----------------------*/
+#faqs {
+    color: #161616;
+    background-color: #A0E3F2;
+    border-radius: 10px;
+    max-width: 92%;
+    padding: 15px 25px;
+    margin: 30px auto;
+}
+
+/*----------------------- footer ----------------*/
+
+#colophon {
+    text-align: center;
+    background-color: #0D0D0D;
+    color: #0a3267;
+    color: #fff;
+    padding: 2px;
+}
